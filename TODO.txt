@@ -1,5 +1,5 @@
-·Lineal search
-Binary search
+#Lineal search
+·Binary search
 
 Bubble sort
 Selection sort

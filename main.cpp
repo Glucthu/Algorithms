@@ -2,6 +2,7 @@
 #include <vector>
 #include <fstream>
 #include "Headers/lineal_search.h"
+#include "Headers/binary_search.h"
 
 using namespace std;
 
