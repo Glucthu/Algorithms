@@ -1,0 +1,11 @@
+·Lineal search
+Binary search
+
+Bubble sort
+Selection sort
+Merge sort
+
+DFS
+BFS
+Dijkstra
+A*
