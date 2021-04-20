@@ -22,7 +22,13 @@ int main()
 	/*** Searching ***/
 	int n;
 	cout << "Number: "; cin >> n;
-	if(lineal_search(vec, n))
+
+	/*if(lineal_search(vec, n))
+		cout << "Found!\n";
+	else
+		cout << "Not found\n";*/
+
+	if(binary_search(vec, n))
 		cout << "Found!\n";
 	else
 		cout << "Not found\n";
