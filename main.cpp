@@ -3,6 +3,7 @@
 #include <fstream>
 #include "Headers/lineal_search.h"
 #include "Headers/binary_search.h"
+#include "Headers/bubble_sort.h"
 
 using namespace std;
 
@@ -20,18 +21,25 @@ int main()
 		in >> vec[i];
 	
 	/*** Searching ***/
-	int n;
-	cout << "Number: "; cin >> n;
+	/*int n;
+	cout << "Number: "; cin >> n;*/
 
 	/*if(lineal_search(vec, n))
 		cout << "Found!\n";
 	else
 		cout << "Not found\n";*/
 
-	if(binary_search(vec, n))
+	/*if(binary_search(vec, n))
 		cout << "Found!\n";
 	else
-		cout << "Not found\n";
+		cout << "Not found\n";*/
+
+	/*** Sorting ***/
+	vec = bubble_sort(vec);
+
+	for(int i = 0; i < vec.size(); i++)
+		cout << vec[i] << " ";
+
 
 	return 0;
 }
