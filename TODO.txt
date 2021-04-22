@@ -1,8 +1,8 @@
 #Lineal search
 #Binary search
 
-·Bubble sort
-Selection sort
+#Bubble sort
+·Selection sort
 Merge sort
 
 DFS
