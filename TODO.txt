@@ -2,7 +2,7 @@
 #Binary search
 
 #Bubble sort
-·Selection sort
+#Selection sort
 Merge sort
 
 DFS
