@@ -1,7 +1,7 @@
 #Lineal search
 #Binary search
 
-Bubble sort
+·Bubble sort
 Selection sort
 Merge sort
 
