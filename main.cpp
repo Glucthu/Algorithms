@@ -5,6 +5,7 @@
 #include "Headers/binary_search.h"
 #include "Headers/bubble_sort.h"
 #include "Headers/selection_sort.h"
+#include "headers/DFS.h"
 
 using namespace std;
 
@@ -29,12 +30,12 @@ int main()
 		cout << "Found!\n";
 	else
 		cout << "Not found\n";*/
-
+	
 	/*if(binary_search(vec, n))
 		cout << "Found!\n";
 	else
 		cout << "Not found\n";*/
-
+	
 	/*** Sorting ***/
 	//vec = bubble_sort(vec);
 	vec = selection_sort(vec);
